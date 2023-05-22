@@ -1,4 +1,4 @@
-# Space Taxi (3D Remake)<sub><sup>, aka `Intro the Trees`</sup></sub> :helicopter:
+# Space Taxi (3D Remake)<sub><sup>, aka `Into the Trees`</sup></sub> :helicopter:
 
 This repository contains the prototype code for a 3D remake of the classic game "Space Taxi", using the [Squirrel programming language](https://github.com/albertodemichelis/squirrel) and the [GameStart 3D engine](https://www.youtube.com/@GameStart3D/videos). The game features a physics engine powered by Bullet Physics.
 
