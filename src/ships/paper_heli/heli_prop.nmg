@@ -1,0 +1,202 @@
+<NML=1.0>
+<Geometry=
+	<RenderWord=
+		<Lit>
+	>
+	<Vertex=
+		<Count=16>
+		<Data==194:192@
+ILè°O~gÄJzéILè‹1çÄJziILh$‹1çÄJzéILhÄO~gÄJziQlÓg«@+gìYgQlÓg
+¬u{æRòYçOlÓç©@+gRòYçOlÓç¨u{æìYgOlÓç¨w{fRòYçILèŒ1gÄJzéILhDO~ç
+ÄJzéQlÓg+@+çRòYçILè0O~çÄJziOlÓç)?+çìYgQlÓg¬w{fìYgILh¤Œ1gÄJzi>
+	>
+	<Polygon=
+		<Count=8>
+		<BindingCount=24>
+		<Data==162:160@
+-*******0***/*******-***/***,***********-***1***+***-*******-***
+-***.***1*******-***3***4***5*******-***5***2***3*******-***7***
+8***9*******-***9***6***7*******>
+	>
+	<PNormal=
+		<Count=8>
+		<Data==28:24@
+J¤*J¤*=J¤*=J¤*=J°*=J°*J°*J°*>
+	>
+	<VNormal=
+		<Count=24>
+		<Data==85:72@
+J¤*J¤*J¤*J¤*J¤*J¤*=J¤*=J¤*=J¤*=J¤*=J¤*=J¤*=J°*=J°*=J°*=J°*=J°*=J
+°*J°*J°*J°*J°*J°*J°*>
+	>
+	<UV=
+		<Count=1>
+		<Data==194:192@
+**ªi**ªi******ªi******************ªi******ªi**ªi**ªi**ªi******ªi
+******************ªi******ªi**ªi**ªi**ªi**ªi********************
+******ªi**ªi**ªi**ªi**ªi**ªi**************************ªi**ªi**ªi>
+	>
+	<Materials=
+		<Material=
+			<Id="carton_mat">
+			<Specular=
+				<X=0.000000>
+				<Y=0.000000>
+				<Z=0.000000>
+			>
+			<Glossiness=0.100000>
+			<AlphaThreshold=0.100000>
+			<PhysicMaterial=
+				<StaticFriction=0.750000>
+				<DynamicFriction=0.500000>
+				<Restitution=0.100000>
+			>
+			<RenderMask=
+				<Smoothing>
+			>
+			<ShaderMap=
+				<Pos=
+					<X=0.000000>
+					<Y=0.000000>
+				>
+				<Map=
+					<Entry=
+						<Type="Geometry Normal">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param>
+					>
+					<Entry=
+						<Type="Multiply">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param>
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param=
+							<Param=0>
+						>
+					>
+					<Entry=
+						<Type="Sampler 2D">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param=
+							<WrapU=1>
+							<WrapV=1>
+						>
+					>
+					<Entry=
+						<Type="Texture">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param=
+							<Texture="maps/carton_color.jpg">
+						>
+					>
+					<Entry=
+						<Type="Geometry UV">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param=
+							<Channel=0>
+						>
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param=
+							<Param=1>
+						>
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param=
+							<Param=4>
+						>
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Pos=
+							<X=0.000000>
+							<Y=0.000000>
+						>
+						<Param=
+							<Param=2>
+						>
+					>
+				>
+				<Normal=
+					<Block=
+						<Index=0>
+					>
+				>
+				<Diffuse=
+					<Block=
+						<Index=1>
+						<Input=
+							<Block=
+								<Index=2>
+							>
+							<Block=
+								<Index=3>
+								<Input=
+									<Block=
+										<Index=4>
+									>
+									<Block=
+										<Index=5>
+									>
+								>
+							>
+						>
+					>
+				>
+				<Specular=
+					<Block=
+						<Index=6>
+					>
+				>
+				<Glossiness=
+					<Block=
+						<Index=7>
+					>
+				>
+				<Constant=
+					<Block=
+						<Index=8>
+					>
+				>
+			>
+			<TextureStage=
+				<Index=0>
+				<Active>
+				<Texture="maps/carton_color.jpg">
+				<UV=0>
+				<Channel="Light">
+			>
+		>
+	>
+>

@@ -1,0 +1,170 @@
+<NML=1.0>
+<Geometry=
+	<RenderWord>
+	<Vertex=
+		<Count=9>
+		<Data==109:108@
+***i)))èvXÞ#)é\***é***Ò)))è***évX^***i#)é\vXÞ***************é
+#)éÜvX^)))h***ivXÞ#)éÜ***i***R***é)))hvX^>
+	>
+	<Polygon=
+		<Count=8>
+		<BindingCount=24>
+		<Data==162:160@
+-***.*******-*******-*******.***+*******-***/***+***.*******-***
++***/***,*******-***1***-***0*******-***-***1***.*******-***2***
+.***1*******-***.***2***/*******>
+	>
+	<PNormal=
+		<Count=8>
+		<Data==24:24@
+**©**©**©**©**©**©**©**©>
+	>
+	<VNormal=
+		<Count=24>
+		<Data==73:72@
+**©**©**©**©**©**©**©**©**©**©**©**©**©**©**©**©**©**©**©**©**©*
+*©**©**©>
+	>
+	<UV=
+		<Count=1>
+		<Data==194:192@
+***i***i******ªi*******i******ªi***i***i***i**ªi**ªi***i***i**ªi
+***i***i***i**ªi**ªi***i**ªi**ªi***i***********i***************i
+***i*******i***i**ªi*******i***i***i*******i***i**ªi******ªi***i>
+	>
+	<Materials=
+		<Material=
+			<Id="particle">
+			<Diffuse=
+				<X=0.000000>
+				<Y=0.000000>
+				<Z=0.000000>
+				<W=0.000000>
+			>
+			<Specular=
+				<X=0.000000>
+				<Y=0.000000>
+				<Z=0.000000>
+			>
+			<Self=
+				<X=3.123200>
+				<Y=3.123200>
+				<Z=3.123200>
+			>
+			<Glossiness=0.100000>
+			<PhysicMaterial=
+				<StaticFriction=0.750000>
+				<DynamicFriction=0.500000>
+				<Restitution=0.100000>
+			>
+			<RenderMask=
+				<DoubleSided>
+				<FixedFunction>
+			>
+			<ShaderMap=
+				<Map=
+					<Entry=
+						<Type="Geometry Normal">
+					>
+					<Entry=
+						<Type="Multiply">
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Param=
+							<Param=0>
+						>
+					>
+					<Entry=
+						<Type="Sampler 2D">
+					>
+					<Entry=
+						<Type="Texture">
+						<Param=
+							<Texture="particles/additive_particle.tga">
+						>
+					>
+					<Entry=
+						<Type="Geometry UV">
+						<Param=
+							<Channel=0>
+						>
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Param=
+							<Param=1>
+						>
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Param=
+							<Param=4>
+						>
+					>
+					<Entry=
+						<Type="Material Parameter">
+						<Param=
+							<Param=2>
+						>
+					>
+				>
+				<Normal=
+					<Block=
+						<Index=0>
+					>
+				>
+				<Diffuse=
+					<Block=
+						<Index=1>
+						<Input=
+							<Block=
+								<Index=2>
+							>
+							<Block=
+								<Index=3>
+								<Input=
+									<Block=
+										<Index=4>
+									>
+									<Block=
+										<Index=5>
+									>
+								>
+							>
+						>
+					>
+				>
+				<Specular=
+					<Block=
+						<Index=6>
+					>
+				>
+				<Glossiness=
+					<Block=
+						<Index=7>
+					>
+				>
+				<Constant=
+					<Block=
+						<Index=8>
+					>
+				>
+			>
+			<TextureStage=
+				<Index=0>
+				<Active>
+				<Texture="particles/additive_particle.tga">
+				<UV=0>
+				<Channel="Color">
+			>
+			<TextureStage=
+				<Index=1>
+				<Texture="particles/additive_particle.tga">
+				<UV=0>
+				<Channel="Opacity">
+			>
+		>
+	>
+>

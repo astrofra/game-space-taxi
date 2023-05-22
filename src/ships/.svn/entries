@@ -1,0 +1,56 @@
+9
+
+dir
+15
+svn://www.movida-mail.com/spacetaxi/mddta/ships
+svn://www.movida-mail.com/spacetaxi
+
+
+
+2009-01-24T18:16:35.874375Z
+15
+fra
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8b81abd6-97fd-f848-b26d-75a486662f48
+
+player.nut
+file
+
+
+
+
+2008-10-06T23:52:53.734375Z
+b5391bc18269d10867c0001223460250
+2008-10-06T22:16:56.248375Z
+7
+fra
+
+helicopter.nut
+file
+
+
+
+
+2008-10-14T05:32:53.468750Z
+d15a495607ed6d136a118fc6a77a5884
+2008-10-14T06:00:59.413500Z
+9
+fra
+has-props
+
+paper_heli
+dir
+

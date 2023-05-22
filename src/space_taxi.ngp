@@ -1,0 +1,21 @@
+<NML=1.0>
+<Environment=
+	<Name="New Project">
+	<Scenes=
+		<Scene=
+			<URI="levels/paper_tower_0/room_0.nms">
+			<Type="3d">
+		>
+		<Scene=
+			<URI="ships/paper_heli/scene.nms">
+			<Type="3d">
+		>
+	>
+	<Folders>
+	<Include=
+		<URI="scriptlib/nad.nut">
+	>
+	<SearchPaths=
+		<Path="e:/3D/space_taxi/svn/mddta/">
+	>
+>
