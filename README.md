@@ -45,4 +45,4 @@ This script handles the room transition logic in a level. It maintains a `room_c
 
 ## :warning: Notice
 
-This is a legacy codebase that was developed using an older version of the GameStart 3D engine. It is presented here for posterity and to possibly serve as inspiration for similar projects. Note that the code might not work correctly or at all with the current versions of GameStart 3D engine and the Squirrel programming language.
+This is a legacy codebase that was developed using an older version of the GameStart 3D engine. It is presented here for posterity and to possibly serve as inspiration for similar projects. 
