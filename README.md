@@ -1,6 +1,6 @@
 # Space Taxi (3D Remake)<sub><sup>, aka `Into the Trees`</sup></sub> :helicopter:
 
-This repository contains the prototype code for a 3D remake of the classic game "Space Taxi", using the [Squirrel programming language](https://github.com/albertodemichelis/squirrel) and the [GameStart 3D engine](https://www.youtube.com/@GameStart3D/videos). The game features a physics engine powered by Bullet Physics.
+This repository contains the prototype code for a 3D remake of the classic game "Space Taxi", using the [Squirrel programming language](https://github.com/albertodemichelis/squirrel) and the [GameStart 3D engine](https://www.youtube.com/@GameStart3D/videos). The game relies a bit on physics (powered by Bullet Physics).
 
 ![Space Taxi Screenshot 0](img/space-taxi-shot_00_thumb.png)
 <BR>
@@ -29,7 +29,7 @@ This script handles the main gameplay logic. It primarily deals with finding and
 
 ### Tower Scene Script (`Tower.nut`)
 
-The Tower Scene Script is very similar to the Main Scene Script, and it appears to be used for different scenes that have similar gameplay mechanics to the main scene.
+The Tower Scene Script is similar to the Main Scene Script and is meant to run specific events related to the tower.
 
 ### Controller (`Controller.nut`)
 
